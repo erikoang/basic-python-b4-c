@@ -5,7 +5,7 @@ def printDaftarKontak():
         print("Nama: ", kontak["Nama"])
         print("No. Telepon", kontak["No. Telepon"])
         print("-------------------")
-    
+         
 
 def tambah(namaPemilikKontak, nomorPemilikKontak):
     daftarKontak.append({"Nama" : namaPemilikKontak, "No. Telepon" : nomorPemilikKontak})
